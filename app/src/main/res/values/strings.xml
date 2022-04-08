@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">Story App</string>
+    
+    <string name="welcome">Welcome!</string>
+    <string name="join_us">Join Us!</string>
+    <string name="introduction">Contribute yourself to be the painter of the taleful world.</string>
+    <string name="greeting">Explore the world through exciting tales and share your own to make the world more colorful!</string>
+    <string name="greeting1">See what your friends are up to!</string>
+<!--    TODO: FINISH THE GREETINGS-->
+    <string name="greeting2">See what your friends are up to!2</string>
+    <string name="greeting3">See what your friends are up to!3</string>
+    <string name="greeting4">See what your friends are up to!4</string>
+<!--    FINISH THE GREETINGS-->
+    <string name="login">Log In</string>
+    <string name="register">Register</string>
+    <string name="get_started">Get Started</string>
+    <string name="or">Or</string>
+    <string name="have_account">Already have an account?</string>
+    
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="proceed">Proceed</string>
+    <string name="post">Post</string>
+
+    <string name="settings">Settings</string>
+    <string name="feed">Feed</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="enter_description">Enter a description</string>
+
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+
+<!--    PLACEHOLDERS-->
+    <string name="placeholder_name">e.g. John John</string>
+    <string name="placeholder_email">e.g. email@mail.com</string>
+    <string name="placeholder_password">********</string>
+
+    <string name="placeholder_user">User Name</string>
+    <string name="placeholder_description">This is the description</string>
 </resources>
