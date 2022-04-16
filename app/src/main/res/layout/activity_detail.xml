@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_detail_scene"
+    tools:context=".ui.detail.DetailActivity">
+
+
+    <ImageView
+        android:id="@+id/img_story"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/story_picture"
+        android:transitionName="picture"
+        android:scaleType="fitCenter"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="94dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        style="@style/Text.White"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:background="@drawable/dr_darker_description_container"
+        android:paddingStart="16dp"
+        android:transitionName="description"
+        android:paddingTop="32dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/placeholder_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_description"
+        app:layout_constraintTop_toTopOf="@+id/tv_description"
+        app:srcCompat="@drawable/ic_baseline_keyboard_arrow_up_24"
+        android:contentDescription="@string/expand_description" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

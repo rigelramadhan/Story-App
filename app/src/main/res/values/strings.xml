@@ -1,22 +1,19 @@
 <resources>
     <string name="app_name">Story App</string>
-    
+
     <string name="welcome">Welcome!</string>
     <string name="join_us">Join Us!</string>
     <string name="introduction">Contribute yourself to be the painter of the taleful world.</string>
     <string name="greeting">Explore the world through exciting tales and share your own to make the world more colorful!</string>
     <string name="greeting1">See what your friends are up to!</string>
-<!--    TODO: FINISH THE GREETINGS-->
-    <string name="greeting2">See what your friends are up to!2</string>
-    <string name="greeting3">See what your friends are up to!3</string>
-    <string name="greeting4">See what your friends are up to!4</string>
-<!--    FINISH THE GREETINGS-->
+    <string name="greeting2">Be expressive of who you are!</string>
+    <!--    FINISH THE GREETINGS-->
     <string name="login">Log In</string>
     <string name="register">Register</string>
     <string name="get_started">Get Started</string>
-    <string name="or">Or</string>
+    <string name="or">or</string>
     <string name="have_account">Already have an account?</string>
-    
+
     <string name="camera">Camera</string>
     <string name="gallery">Gallery</string>
     <string name="proceed">Proceed</string>
@@ -34,11 +31,38 @@
     <string name="language">Language</string>
     <string name="theme">Theme</string>
 
-<!--    PLACEHOLDERS-->
+    <!--    PLACEHOLDERS-->
     <string name="placeholder_name">e.g. John John</string>
     <string name="placeholder_email">e.g. email@mail.com</string>
     <string name="placeholder_password">********</string>
 
     <string name="placeholder_user">User Name</string>
     <string name="placeholder_description">This is the description</string>
+
+    <!--    EDITTEXT-->
+    <string name="valid_email">Please input a valid email</string>
+    <string name="password_minimum">Password must consist of minimum 6 characters</string>
+    <string name="email_cannot_empty">Email cannot be empty</string>
+    <string name="register_successful">Account was successfully registered</string>
+    <string name="name_cannot_empty">Name cannot be empty</string>
+    <string name="camera_failed">Failed to open camera</string>
+    <string name="permission_needed">Permission needed to use camera</string>
+    <string name="failed_capture">Failed to capture image</string>
+    <string name="image_posted">Image has been posted</string>
+    <string name="wait_for_processing">Wait until processing is done</string>
+    <string name="description_cannot_empty">Description cannot be empty</string>
+    <string name="logout">Log Out</string>
+    <string name="take_picture">Take picture</string>
+    <string name="rotate_camera">Rotate camera</string>
+    <string name="open_gallery">Open gallery</string>
+    <string name="story_picture">Story picture</string>
+    <string name="post_a_picture">Post a picture</string>
+    <string name="greeting_picture">Greeting picture</string>
+    <string name="register_an_account">Register an account</string>
+    <string name="post_the_picture">Post the picture</string>
+    <string name="register_this_account">Register this account</string>
+    <string name="login_instead">Login instead</string>
+    <string name="no_stories_found">No stories found</string>
+    <string name="expand_description">Expand description</string>
+    <string name="expand_image">Expand image</string>
 </resources>

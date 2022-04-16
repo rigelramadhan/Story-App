@@ -4,7 +4,25 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/drawable/dr_button_gradient.xml" value="0.332" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/drawable/dr_circle_container.xml" value="0.262" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/drawable/dr_darker_description_container.xml" value="0.262" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/drawable/dr_description_container.xml" value="0.341" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/drawable/dr_edittext_background.xml" value="0.194" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/drawable/dr_page_indicator.xml" value="0.341" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/drawable/dr_page_indicator_blue.xml" value="0.341" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/drawable/greeting_illustration.xml" value="0.341" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/drawable/greeting_illustration2.xml" value="0.194" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/layout/activity_camera.xml" value="0.297990594271056" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/layout/activity_detail.xml" value="0.1" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/layout/activity_login.xml" value="0.358695652173913" />
         <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/layout/activity_post.xml" value="0.25" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/layout/activity_register.xml" value="0.358695652173913" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/layout/activity_welcome.xml" value="0.33" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/layout/item_post.xml" value="0.33" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/layout/story_widget.xml" value="0.14557226399331663" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/layout/widget_item.xml" value="0.29786324786324786" />
+        <entry key="..\:/DicodingProjects/StoryApp/app/src/main/res/menu/options_menu.xml" value="0.29786324786324786" />
       </map>
     </option>
   </component>

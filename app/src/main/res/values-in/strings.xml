@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Story App</string>
+
+    <string name="welcome">Selamat datang!</string>
+    <string name="join_us">Bergabunglah dengan kami!</string>
+    <string name="introduction">Kontribusikan diri Anda untuk menjadi pelukis dunia yang penuh dongeng.</string>
+    <string name="greeting">Jelajahi dunia melalui kisah-kisah menarik dan bagikan kisah Anda sendiri untuk membuat dunia lebih berwarna!</string>
+    <string name="greeting1">Lihat yang dilakukan teman-teman Anda!</string>
+    <string name="greeting2">Berekspresilah menjadi diri Anda sendiri!</string>
+    <!--    FINISH THE GREETINGS-->
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="get_started">Mulai</string>
+    <string name="or">atau</string>
+    <string name="have_account">Sudah memiliki akun?</string>
+
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="proceed">Lanjutkan</string>
+    <string name="post">Unggah</string>
+
+    <string name="settings">Pengaturan</string>
+    <string name="feed">Feed</string>
+
+    <string name="name">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+
+    <string name="enter_description">Masukkan deskripsi</string>
+
+    <string name="language">Bahasa</string>
+    <string name="theme">Tema</string>
+
+    <!--    PLACEHOLDERS-->
+    <string name="placeholder_name">e.g. John John</string>
+    <string name="placeholder_email">e.g. email@mail.com</string>
+    <string name="placeholder_password">********</string>
+
+    <string name="placeholder_user">User Name</string>
+    <string name="placeholder_description">This is the description</string>
+
+
+    <string name="valid_email">Silakan masukkan email yang valid</string>
+    <string name="password_minimum">Password harus terdiri dari minimal 6 karakter</string>
+    <string name="email_cannot_empty">Email tidak boleh kosong</string>
+    <string name="register_successful">Akun berhasil didaftarkan</string>
+    <string name="name_cannot_empty">Nama tidak boleh kosong</string>
+    <string name="camera_failed">Gagal membuka kamera</string>
+    <string name="permission_needed">Izin diperlukan untuk menggunakan kamera</string>
+    <string name="failed_capture">Gagal mengambil gambar</string>
+    <string name="image_posted">Gambar telah diposting</string>
+    <string name="wait_for_processing">Tunggu hingga proses selesai</string>
+    <string name="description_cannot_empty">Deskripsi tidak boleh kosong</string>
+    <string name="logout">Keluar</string>
+    <string name="take_picture">Ambil gambar</string>
+    <string name="rotate_camera">Putar kamera</string>
+    <string name="open_gallery">Buka galeri</string>
+    <string name="story_picture">Gambar story</string>
+    <string name="post_a_picture">Unggah sebuah gambar</string>
+    <string name="greeting_picture">Gambar salam</string>
+    <string name="register_an_account">Daftarkan sebuah akun</string>
+    <string name="post_the_picture">Unggah gambar ini</string>
+    <string name="register_this_account">Daftarkan akun ini</string>
+    <string name="login_instead">Masuk saja</string>
+    <string name="no_stories_found">Tidak ada story</string>
+    <string name="expand_description">Lihat utuh deskripsi</string>
+    <string name="expand_image">Lihat utuh gambar</string>
+</resources>

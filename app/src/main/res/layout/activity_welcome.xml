@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_welcome_scene"
+    tools:context=".ui.welcome.WelcomeActivity">
+
+    <com.rigelramadhan.storyapp.customview.GradientTextView
+        android:id="@+id/gtv_join_us"
+        style="@style/Text.Header.Big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_introduction"
+        style="@style/Text.Description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="@string/greeting"
+        android:transitionName="greeting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gtv_join_us"
+        app:layout_constraintTop_toBottomOf="@+id/gtv_join_us" />
+
+    <ImageView
+        android:id="@+id/img_greeting1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:contentDescription="@string/greeting_picture"
+        android:src="@drawable/greeting_illustration"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_greeting2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:contentDescription="@string/greeting_picture"
+        android:src="@drawable/greeting_illustration2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_greeting1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/greeting1"
+        app:layout_constraintEnd_toEndOf="@+id/img_greeting1"
+        app:layout_constraintStart_toStartOf="@+id/img_greeting1"
+        app:layout_constraintTop_toBottomOf="@+id/img_greeting1" />
+
+    <TextView
+        android:id="@+id/tv_greeting2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/greeting2"
+        app:layout_constraintEnd_toEndOf="@+id/img_greeting2"
+        app:layout_constraintStart_toStartOf="@+id/img_greeting2"
+        app:layout_constraintTop_toBottomOf="@+id/img_greeting2" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/menu1"
+        android:layout_width="23dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="32dp"
+        app:altSrc="@drawable/dr_page_indicator_blue"
+        app:layout_constraintBottom_toTopOf="@+id/btn_get_started"
+        app:layout_constraintEnd_toStartOf="@+id/menu2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dr_page_indicator" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/menu2"
+        android:layout_width="23dp"
+        android:layout_height="7dp"
+        android:layout_marginEnd="32dp"
+        app:altSrc="@drawable/dr_page_indicator_blue"
+        app:layout_constraintBottom_toBottomOf="@+id/menu1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/menu1"
+        app:layout_constraintTop_toTopOf="@+id/menu1"
+        app:srcCompat="@drawable/dr_page_indicator" />
+
+    <Button
+        android:id="@+id/btn_get_started"
+        style="@style/Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="48dp"
+        android:contentDescription="@string/get_started"
+        android:text="@string/get_started"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.motion.widget.MotionLayout>

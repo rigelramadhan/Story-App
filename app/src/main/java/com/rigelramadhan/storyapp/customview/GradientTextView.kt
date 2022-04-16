@@ -34,7 +34,6 @@ class GradientTextView : AppCompatTextView {
 
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
-        this.paint.shader = gradient
     }
 
     private fun init() {
@@ -50,5 +49,6 @@ class GradientTextView : AppCompatTextView {
             null,
             Shader.TileMode.CLAMP
         )
+        this.paint.shader = gradient
     }
 }

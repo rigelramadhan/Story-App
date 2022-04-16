@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.register.RegisterActivity">
+
+    <com.rigelramadhan.storyapp.customview.GradientTextView
+        android:id="@+id/gtv_join_us"
+        style="@style/Text.Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/join_us"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_introduction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/introduction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gtv_join_us"
+        app:layout_constraintTop_toBottomOf="@+id/gtv_join_us" />
+
+    <com.rigelramadhan.storyapp.customview.CustomEditText
+        android:id="@+id/et_layout_name"
+        style="@style/EditText"
+        android:layout_marginTop="48dp"
+        android:hint="@string/name"
+        app:layout_constraintEnd_toEndOf="@+id/tv_introduction"
+        app:layout_constraintStart_toStartOf="@+id/tv_introduction"
+        app:layout_constraintTop_toBottomOf="@+id/tv_introduction" />
+
+    <com.rigelramadhan.storyapp.customview.EmailEditText
+        android:id="@+id/et_layout_email"
+        style="@style/EditText"
+        android:layout_marginTop="8dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/et_layout_name"
+        app:layout_constraintStart_toStartOf="@+id/et_layout_name"
+        app:layout_constraintTop_toBottomOf="@+id/et_layout_name" />
+
+    <com.rigelramadhan.storyapp.customview.PasswordEditText
+        android:id="@+id/et_layout_password"
+        style="@style/EditText"
+        android:layout_marginTop="8dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/et_layout_email"
+        app:layout_constraintStart_toStartOf="@+id/et_layout_email"
+        app:layout_constraintTop_toBottomOf="@+id/et_layout_email" />
+
+    <Button
+        android:id="@+id/btn_register"
+        style="@style/Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/register_this_account"
+        android:text="@string/register"
+        app:layout_constraintEnd_toEndOf="@+id/et_layout_password"
+        app:layout_constraintStart_toStartOf="@+id/et_layout_password"
+        app:layout_constraintTop_toBottomOf="@+id/et_layout_password" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/gray"
+        app:layout_constraintBottom_toBottomOf="@id/tv_have_account"
+        app:layout_constraintEnd_toStartOf="@+id/tv_have_account"
+        app:layout_constraintStart_toStartOf="@+id/btn_register"
+        app:layout_constraintTop_toTopOf="@id/tv_have_account"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/tv_have_account"
+        style="@style/Text.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:text="@string/have_account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_register" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/gray"
+        app:layout_constraintBottom_toBottomOf="@id/tv_have_account"
+        app:layout_constraintEnd_toEndOf="@+id/btn_register"
+        app:layout_constraintStart_toEndOf="@+id/tv_have_account"
+        app:layout_constraintTop_toTopOf="@id/tv_have_account"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/login_instead"
+        android:text="@string/login"
+        app:layout_constraintEnd_toEndOf="@+id/line2"
+        app:layout_constraintStart_toStartOf="@+id/line1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_have_account" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
